@@ -102,7 +102,7 @@ while True:
         request = urequests.get(ASK_URL_2+'&module2=' +
                                 str(1)+'&module3='+str(1))
         request.close()
-# motion is reset after some delay and 0 is send to asksensor module
+# motion is reset after some delay(=motion_time defined above) and 0 is send to asksensor module
     elif motion_start and time.ticks_diff(time.ticks_ms(), motion_start) >= motion_time:
         motion_start = None
         request = urequests.get(ASK_URL_2+'&module2=' +
