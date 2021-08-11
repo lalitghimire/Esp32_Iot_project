@@ -14,5 +14,6 @@ to the internet via wifi, main.py is the main implementation file.
 
 ## To run the code
 
-Use any micropython IDE to load the code in ESP32 board which has been flashed with micropython. To flash use steps here: https://docs.micropython.org/en/latest/esp32/tutorial/intro.html#deploying-the-firmware. Then provide wifi credentials.
-To visualize signup for account in (further asksensors.com)
+Use any micropython IDE to load the code in ESP32 board which has been flashed with micropython. To flash use steps here: https://docs.micropython.org/en/latest/esp32/tutorial/intro.html#deploying-the-firmware.
+Then provide wifi credentials in the boot.py file.
+To visualize signup for account in asksensors.com(further https://asksensors.com/index.html)
